@@ -10,8 +10,8 @@ create table #tempDatePrice
 declare @i int=0
 	, @date date='1/1/2016'
 	, @itemId int
-	, @startDate date=DATEADD(d, ROUND(365*RAND(),0, 1), '1/1/2016')
-
+	, @startDate date 
+	
 declare CItem cursor fast_forward 
 for
 select Item_ID from ItemCatalogue.dbo.IC_ITEM 
