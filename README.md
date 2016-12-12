@@ -25,5 +25,7 @@ OBS: In situatia data cu BDs SQL Server pe acelasi server aceasta solutie e pref
 Solutia 2:
 Se face Deploy project in Internet Services Catalog la 
 SSIS ETL MindIt 2014.ispac
-Apoi se executa pachetul package.dtsx (nu e necesar parametrajul)
+Apoi se executa pachetul package.dtsx
+
+OBS: nu e necesar parametrajul pentru default instance de SQL. Pentru instante numite se editeaza connectionstring-ul celor 2 conexiuni schimband (local) cu numele instantei.
 
