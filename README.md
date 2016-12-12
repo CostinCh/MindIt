@@ -16,7 +16,14 @@ InsertBrands.sql,
 InsertItems.sql,
 InsertPrices.sql
 
-3/ Se executa scriptul de populare tabela PA_ITEM:
-
+3/ Solutia 1:
+Se executa scriptul de populare tabela PA_ITEM:
 ETL_PA_ITEM.sql
+
+OBS: In situatia data cu BDs SQL Server pe acelasi server aceasta solutie e preferabila. 
+
+Solutia 2:
+Se face Deploy project in Internet Services Catalog la 
+SSIS ETL MindIt 2014.ispac
+Apoi se executa pachetul package.dtsx (nu e necesar parametrajul)
 
